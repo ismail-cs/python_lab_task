@@ -1,0 +1,12 @@
+def replace_value(lst, old_val, new_val):
+    for i in range(len(lst)):
+        if lst[i] == old_val:
+            lst[i] = new_val
+
+# Example list
+my_list = [10, 20, 30, 20, 40, 20, 50]
+
+# Replace 20 with 200
+replace_value(my_list, 20, 200)
+
+print("Updated list:", my_list)
